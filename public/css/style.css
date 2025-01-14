@@ -1,0 +1,134 @@
+html, body {
+    height: 100%; /* Assurez-vous que html et body occupent toute la hauteur */
+    margin: 0; /* Supprimez les marges par défaut */
+}
+
+.hero2 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Occupe toute la hauteur de la fenêtre */
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container-lg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+}
+
+/* Styles pour les boutons */
+/* Styles pour les boutons */
+#btn1 {
+    background-color: #f76270; /* Couleur de fond par défaut des boutons */
+    color: white; /* Couleur du texte par défaut */
+    border-radius: 25px; /* Coins arrondis pour un look moderne */
+}
+
+#btn1:hover {
+    background-color: #500000; /* Couleur de fond au survol */
+}
+
+#btn2 {
+    background-color: transparent;
+    color: #f76270; /* Couleur du texte par défaut */
+    border: 1px solid #f76270; /* Bordure du bouton */
+    border-radius: 25px; /* Coins arrondis pour un look moderne */
+}
+
+#btn2:hover {
+    background-color: #f76270; /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
+
+/* Styles supplémentaires si nécessaire */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Styles pour le texte descriptif */
+.lead {
+    font-size: 30px; /* Augmentez la taille de la police pour une meilleure lisibilité */
+}
+
+
+/* marketing section */
+.marketing{
+    background-color:white;
+    
+
+}
+
+/*row 1 marketing section */
+
+.marketing .row1 .col1 h2{
+    
+    font-size: 35px;
+}
+
+.marketing .row1 .col1 p{
+color:black;
+font-size:22px;
+
+}
+
+/*row 2 marketing section */
+
+.marketing .row1 .col2 p{
+    color:black;
+    font-size:22px;
+    
+}
+
+
+.marketing .row1 .col2 h2{
+    color:black;
+    font-size:35px;
+    
+}
+
+
+/*end row 2 marketing section */
+.marketing .row1 .col3 p{
+    color:black;
+    font-size:22px;
+    
+}
+
+.marketing .row1 .col3 h2{
+    color:black;
+    font-size:35px;
+    
+}
+
+/*styles offres*/
+.card {
+    border-width: 2px; /* Définit l'épaisseur de la bordure */
+    border-style: solid; /* Assurez-vous que le style de la bordure est défini */
+    border-color: #007BFF; /* Couleur de la bordure */
+}
+
+/* Pour les offres spécifiques */
+.card.standard {
+    border-color: #007BFF; /* Bordure bleu foncé pour l'offre Standard */
+}
+
+.card.junior {
+    border: 3px solid #FF5733; /* Bordure rouge vif pour l'offre Junior */
+}
+
+.card.senior {
+    border-color: #007BFF; /* Bordure bleu foncé pour l'offre Senior */
+}
+
